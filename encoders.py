@@ -49,7 +49,7 @@ with open("./test/config/" + filename + ".json") as f:
 
 for this_item in encodings_list:
     os.system("rm -rf ./test/model/" + filename + fn_separator + str(this_item["type"]))
-    os.system('python3 -m allennlp.run train ./test/config/' + filename + fn_separator + str(this_item["type"]) + '.json -s ./test/model/' + filename + fn_separator + str(this_item["type"]) + ((" --include-package " + package) if package else ""))
+    os.system('python3 -m allennlp.run train ./test/config/' + filename + fn_separator + str(this_item["type"]) + '.json -s ./test/models/' + filename + fn_separator + str(this_item["type"]) + ((" --include-package " + package) if package else ""))
 
 save_results(encodings_list, filename, fn_separator)
 
