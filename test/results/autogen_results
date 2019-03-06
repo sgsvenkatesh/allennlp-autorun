@@ -1,0 +1,14 @@
+_simple_tagger_pos__encoders_
+------------------------
+{
+    "gru": "FileNotFoundError",
+    "lstm": "FileNotFoundError",
+    "rnn": "FileNotFoundError"
+}
+------------------------
+_simple_tagger_pos__encoders_
+------------------------
+{
+    "gru": 0.9441816461684012
+}
+------------------------
