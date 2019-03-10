@@ -1,6 +1,6 @@
 # allennlp-config-gen
 
-This is a script to automate running multiple models with minor changes to the config. 
+This is a script to automate running multiple models with minor changes to the config. Inspired from a [HW from Prof. Sameer Singh](https://github.com/sameersingh/uci-statnlp/tree/master/hw3).
 
 `encoders.py` - This file contains the script to extend the base config mentioned at `./test/config` with the mentioned custom config at `encoders.py:18`. 
 
