@@ -1,4 +1,4 @@
-# allennlp-config-gen
+# allennlp-autorun
 
 This is a script to automate running multiple models with minor changes to the config. Inspired from a [HW from Prof. Sameer Singh](https://github.com/sameersingh/uci-statnlp/tree/master/hw3).
 
